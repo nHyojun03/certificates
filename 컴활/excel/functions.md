@@ -138,6 +138,11 @@
 - `=FIND(find_text, within_text, [start: num(1)])` => `number`
 - `=SEARCH(find_text, within_text, [start: num(1)])` => `number`
 
+| | FIND | SEARCH |
+| :---: | :---: | :---: |
+| 대소문자 구분 | O | X |
+| 와일드 문자 지원 | X | O | 
+
 ### 문자열 ⇔ 숫자
 
 - `=TEXT(value: number, format_text: string)` => `string`
@@ -217,6 +222,10 @@
 ---
 
 ## <span style="color: #083891">통계</span>
+
+- `=AVERAGE(...[number])`
+- 
+
 
 ---
 
