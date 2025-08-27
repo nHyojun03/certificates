@@ -224,7 +224,8 @@
 ## <span style="color: #083891">통계</span>
 
 - `=AVERAGE(...[number])`
-- 
+- `=AVERAGEA(...[value])`
+- `=AVERAGE(...[number])`
 
 
 ---
