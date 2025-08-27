@@ -192,24 +192,40 @@
 
 ---
 
-## 데이터베이스
+## <span style="color: #083891">데이터베이스</span>
 
-※ 파라미터
+※ **파라미터**
 
 - `database`: 레코드와 필드
 - `field`: 연산에 사용되는 필드
 - `criteria`: 조건 테이블
 
-
+※ **함수**
 - [`=DAVERAGE(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/daverage-%ED%95%A8%EC%88%98-a6a2d5ac-4b4b-48cd-a1d8-7b37834e5aee): 평균
-- [DCOUNT](https://support.microsoft.com/ko-kr/office/dcount-%ED%95%A8%EC%88%98-c1fc7b93-fb0d-4d8d-97db-8d5f076eaeb1): 숫자값이 있는 셀의 개수
-- [DCOUNTA](https://support.microsoft.com/ko-kr/office/dcounta-%ED%95%A8%EC%88%98-00232a6d-5a66-4a01-a25b-c1653fda1244): 비어 있지 않은 셀의 개수
-- [DGET](https://support.microsoft.com/ko-kr/office/dget-%ED%95%A8%EC%88%98-455568bf-4eef-45f7-90f0-ec250d00892e): 한 셀의 값
+- [`DCOUNT(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dcount-%ED%95%A8%EC%88%98-c1fc7b93-fb0d-4d8d-97db-8d5f076eaeb1): 숫자값이 있는 셀의 개수
+- [`DCOUNTA(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dcounta-%ED%95%A8%EC%88%98-00232a6d-5a66-4a01-a25b-c1653fda1244): 비어 있지 않은 셀의 개수
+- [`DGET(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dget-%ED%95%A8%EC%88%98-455568bf-4eef-45f7-90f0-ec250d00892e): 한 셀의 값
   - `criteria`의 조건에 맞는 값이 없으면 `#VALUE` 오류 값 반환
   - 여러 값이면 `#NUM!` 오류 값 반환
-- [DMAX](https://support.microsoft.com/ko-kr/office/dmax-%ED%95%A8%EC%88%98-f4e8209d-8958-4c3d-a1ee-6351665d41c2):
-- DMIN
-- DPRODUCT
-- DSTDEV
-- DSUM
-- DVAR
+- [`DMAX(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dmax-%ED%95%A8%EC%88%98-f4e8209d-8958-4c3d-a1ee-6351665d41c2): 최댓값
+- [`DMIN(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dmin-%ED%95%A8%EC%88%98-4ae6f1d9-1f26-40f1-a783-6dc3680192a3): 최솟값
+- [`DPRODUCT(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dproduct-%ED%95%A8%EC%88%98-4f96b13e-d49c-47a7-b769-22f6d017cb31): 곱
+- [`DSTDEV(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dstdev-%ED%95%A8%EC%88%98-026b8c73-616d-4b5e-b072-241871c4ab96): 표준편차
+- [`DSUM(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dsum-%ED%95%A8%EC%88%98-53181285-0c4b-4f5a-aaa3-529a322be41b): 합계
+- [`DVAR(db, field, criteria)`](https://support.microsoft.com/ko-kr/office/dvar-%ED%95%A8%EC%88%98-d6747ca9-99c7-48bb-996e-9d7af00f3ed1): 분산
+
+---
+
+## <span style="color: #083891">통계</span>
+
+---
+
+## <span style="color: #083891">정보</span>
+
+---
+
+## <span style="color: #083891">재무</span>
+
+---
+
+## <span style="color: #083891">찾기와 참조</span>
